@@ -13,7 +13,7 @@ terraform {
   }
 }
 provider "google" {
-#  credentials = file("lab-316902-c7de1ace4681.json")
+  credentials = file("/home/steve/.gcloud/lab-316902-c7de1ace4681.json")
   project = "lab-316902"
   region  = "us-central1"
   zone    = "us-central1-c"
